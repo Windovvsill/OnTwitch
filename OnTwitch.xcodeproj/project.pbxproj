@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABAC51524351492006F6025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC51424351492006F6025 /* AppDelegate.swift */; };
+		AABAC51724351492006F6025 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC51624351492006F6025 /* ContentView.swift */; };
+		AABAC51924351495006F6025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABAC51824351495006F6025 /* Assets.xcassets */; };
+		AABAC51C24351495006F6025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABAC51B24351495006F6025 /* Preview Assets.xcassets */; };
+		AABAC51F24351495006F6025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABAC51D24351495006F6025 /* Main.storyboard */; };
+		AABAC52B24351496006F6025 /* Time_StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC52A24351496006F6025 /* Time_StampTests.swift */; };
+		AABAC536243528D9006F6025 /* OnTwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC535243528D9006F6025 /* OnTwitchViewController.swift */; };
+		AABAC53824354097006F6025 /* OnTwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC53724354097006F6025 /* OnTwitch.swift */; };
+		AABAC53A243570C2006F6025 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAC539243570C2006F6025 /* EventMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABAC52724351496006F6025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABAC50924351492006F6025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABAC51024351492006F6025;
+			remoteInfo = "OnTwitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AABAC51124351492006F6025 /* OnTwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABAC51424351492006F6025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AABAC51624351492006F6025 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AABAC51824351495006F6025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABAC51B24351495006F6025 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AABAC51E24351495006F6025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AABAC52024351495006F6025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABAC52124351495006F6025 /* Time_Stamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Time_Stamp.entitlements; sourceTree = "<group>"; };
+		AABAC52624351496006F6025 /* OnTwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABAC52A24351496006F6025 /* Time_StampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_StampTests.swift; sourceTree = "<group>"; };
+		AABAC52C24351496006F6025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABAC535243528D9006F6025 /* OnTwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTwitchViewController.swift; sourceTree = "<group>"; };
+		AABAC53724354097006F6025 /* OnTwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTwitch.swift; sourceTree = "<group>"; };
+		AABAC539243570C2006F6025 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABAC50E24351492006F6025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABAC52324351496006F6025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABAC50824351492006F6025 = {
+			isa = PBXGroup;
+			children = (
+				AABAC51324351492006F6025 /* OnTwitch */,
+				AABAC52924351496006F6025 /* OnTwitchTests */,
+				AABAC51224351492006F6025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABAC51224351492006F6025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABAC51124351492006F6025 /* OnTwitch.app */,
+				AABAC52624351496006F6025 /* OnTwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABAC51324351492006F6025 /* OnTwitch */ = {
+			isa = PBXGroup;
+			children = (
+				AABAC51424351492006F6025 /* AppDelegate.swift */,
+				AABAC539243570C2006F6025 /* EventMonitor.swift */,
+				AABAC535243528D9006F6025 /* OnTwitchViewController.swift */,
+				AABAC51624351492006F6025 /* ContentView.swift */,
+				AABAC51824351495006F6025 /* Assets.xcassets */,
+				AABAC51D24351495006F6025 /* Main.storyboard */,
+				AABAC53724354097006F6025 /* OnTwitch.swift */,
+				AABAC52024351495006F6025 /* Info.plist */,
+				AABAC52124351495006F6025 /* Time_Stamp.entitlements */,
+				AABAC51A24351495006F6025 /* Preview Content */,
+			);
+			path = "OnTwitch";
+			sourceTree = "<group>";
+		};
+		AABAC51A24351495006F6025 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AABAC51B24351495006F6025 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AABAC52924351496006F6025 /* OnTwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				AABAC52A24351496006F6025 /* Time_StampTests.swift */,
+				AABAC52C24351496006F6025 /* Info.plist */,
+			);
+			path = "OnTwitchTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABAC51024351492006F6025 /* OnTwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABAC52F24351496006F6025 /* Build configuration list for PBXNativeTarget "OnTwitch" */;
+			buildPhases = (
+				AABAC50D24351492006F6025 /* Sources */,
+				AABAC50E24351492006F6025 /* Frameworks */,
+				AABAC50F24351492006F6025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTwitch;
+			productName = "OnTwitch";
+			productReference = AABAC51124351492006F6025 /* OnTwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AABAC52524351496006F6025 /* OnTwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABAC53224351496006F6025 /* Build configuration list for PBXNativeTarget "OnTwitchTests" */;
+			buildPhases = (
+				AABAC52224351496006F6025 /* Sources */,
+				AABAC52324351496006F6025 /* Frameworks */,
+				AABAC52424351496006F6025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABAC52824351496006F6025 /* PBXTargetDependency */,
+			);
+			name = OnTwitchTests;
+			productName = "OnTwitchTests";
+			productReference = AABAC52624351496006F6025 /* OnTwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABAC50924351492006F6025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Steve;
+				TargetAttributes = {
+					AABAC51024351492006F6025 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					AABAC52524351496006F6025 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AABAC51024351492006F6025;
+					};
+				};
+			};
+			buildConfigurationList = AABAC50C24351492006F6025 /* Build configuration list for PBXProject "OnTwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABAC50824351492006F6025;
+			productRefGroup = AABAC51224351492006F6025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABAC51024351492006F6025 /* OnTwitch */,
+				AABAC52524351496006F6025 /* OnTwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABAC50F24351492006F6025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABAC51F24351495006F6025 /* Main.storyboard in Resources */,
+				AABAC51C24351495006F6025 /* Preview Assets.xcassets in Resources */,
+				AABAC51924351495006F6025 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABAC52424351496006F6025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABAC50D24351492006F6025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABAC536243528D9006F6025 /* OnTwitchViewController.swift in Sources */,
+				AABAC53A243570C2006F6025 /* EventMonitor.swift in Sources */,
+				AABAC51724351492006F6025 /* ContentView.swift in Sources */,
+				AABAC53824354097006F6025 /* OnTwitch.swift in Sources */,
+				AABAC51524351492006F6025 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABAC52224351496006F6025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABAC52B24351496006F6025 /* Time_StampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AABAC52824351496006F6025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABAC51024351492006F6025 /* OnTwitch */;
+			targetProxy = AABAC52724351496006F6025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AABAC51D24351495006F6025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABAC51E24351495006F6025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABAC52D24351496006F6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABAC52E24351496006F6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AABAC53024351496006F6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OnTwitch/Time_Stamp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OnTwitch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OnTwitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Windovvsill.OnTwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AABAC53124351496006F6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OnTwitch/Time_Stamp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OnTwitch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OnTwitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Windovvsill.OnTwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AABAC53324351496006F6025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OnTwitchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Windovvsill.Time-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTwitch.app/Contents/MacOS/OnTwitch";
+			};
+			name = Debug;
+		};
+		AABAC53424351496006F6025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OnTwitchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Windovvsill.Time-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnTwitch.app/Contents/MacOS/OnTwitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABAC50C24351492006F6025 /* Build configuration list for PBXProject "OnTwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABAC52D24351496006F6025 /* Debug */,
+				AABAC52E24351496006F6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABAC52F24351496006F6025 /* Build configuration list for PBXNativeTarget "OnTwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABAC53024351496006F6025 /* Debug */,
+				AABAC53124351496006F6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABAC53224351496006F6025 /* Build configuration list for PBXNativeTarget "OnTwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABAC53324351496006F6025 /* Debug */,
+				AABAC53424351496006F6025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABAC50924351492006F6025 /* Project object */;
+}
